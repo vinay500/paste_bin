@@ -27,9 +27,11 @@ Copy `.env.example` to `.env` (if provided) or ensure a valid `.env` exists with
 
 Start the server:
 ```bash
-npm run dev
-# or for production mode
+# For Production / Deployment (Runs migrations automatically)
 npm start
+
+# For Local Development (Requires manual migrations if schema changes)
+npm run dev
 ```
 The server runs on port 5000 by default.
 
