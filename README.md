@@ -29,6 +29,7 @@ Start the server:
 ```bash
 # For Production / Deployment (Runs migrations automatically)
 npm start
+# Note: If it returns to the prompt but says "Server running...", the server is up!
 
 # For Local Development (Requires manual migrations if schema changes)
 npm run dev
